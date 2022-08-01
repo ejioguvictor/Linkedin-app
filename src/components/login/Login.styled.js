@@ -5,8 +5,8 @@ padding: 0px;
 `;
 
 export const Nav = styled.nav`
-/* max-width: 1128px; */
-max-width: 100%;
+max-width: 1128px;
+/* max-width: 100%; */
 margin: auto;
 padding: 12px 0 16px; 
 display: flex;
@@ -91,6 +91,7 @@ export const Hero = styled.div`
       line-height: 2;
     }
   }
+    
   img {
     /* z-index: -1; */
     width: 700px;
@@ -112,6 +113,7 @@ export const Form = styled.div`
   width: 408px;
   @media (max-width: 768px) {
     margin-top: 20px;
+    width: 100%;
   }
 `;
 
