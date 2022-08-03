@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding-top: 52px;
+  padding-top: 4rem;
   max-width: 100%;
 `;
 
@@ -18,6 +18,7 @@ export const Section = styled.section`
   text-align: center;
   text-decoration: underline;
   display: flex;
+  gap: 5px;
   justify-content: center;
   h5 {
     color: #0a66c2;
