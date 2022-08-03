@@ -1,9 +1,12 @@
 import React from 'react'
+import { Container, FollowCard, Title, FeedList, Avatar, Recommendation, BannerCard } from './RightSide.styled'
 
 const RightSide = () => {
   return (
-    <div>RightSide</div>
-  )
-}
+    <Container>
+
+    </Container>
+  );
+};
 
 export default RightSide
