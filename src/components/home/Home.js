@@ -1,8 +1,9 @@
 import React from 'react'
+import LeftSide from '../leftSide/LeftSide'
+import Main from '../main/Main'
+import RightSide from '../rightSide/RightSide'
 import { Container, Section, Layout } from './Home.styled'
-// import Leftside from "./Leftside";
-// import Main from "./Main";
-// import Rightside from "./Rightside";
+
 
 const Home = (props) => {
   return (
@@ -17,9 +18,9 @@ const Home = (props) => {
         </p>
       </Section>
       <Layout>
-        {/* <Leftside />
+        <LeftSide />
         <Main />
-        <Rightside /> */}
+        <RightSide />
       </Layout>
     </Container >
   )
