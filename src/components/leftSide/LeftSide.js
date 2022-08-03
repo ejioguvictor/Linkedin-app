@@ -38,7 +38,7 @@ const LeftSide = (props) => {
         <a>
           <span>
             Events
-            <img src="/images/plus-icon.svg" alt="" />
+            <img src="/images/plus-icon.svg" alt="plus-logo" />
           </span>
         </a>
         <a>
