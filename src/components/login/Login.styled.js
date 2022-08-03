@@ -119,6 +119,7 @@ export const Form = styled.div`
 
 export const Google = styled.button`
   display: flex;
+  gap: 10px;
   justify-content: center;
   background-color: #fff;
   align-items: center;
