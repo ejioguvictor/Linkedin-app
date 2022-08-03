@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, FollowCard, Title, FeedList, Avatar, Recommendation, BannerCard } from './RightSide.styled'
 
-const RightSide = () => {
+const RightSide = (props) => {
   return (
     <Container>
       <FollowCard>
@@ -39,7 +39,7 @@ const RightSide = () => {
       <BannerCard>
         <img
           src="https://static-exp1.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg"
-          alt=""
+          alt="rightSide-banner"
         />
       </BannerCard>
     </Container>
